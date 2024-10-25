@@ -1,0 +1,51 @@
+/* frontend/src/components/Alert.css */
+
+.alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6; /* Light red background */
+}
+
+.alert-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+}
+
+.alert-box h2 {
+    font-size: 100px;
+    color: #000000; /* Red color for alerts */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.alert-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alert-box ul li {
+    font-size: 50px;
+    color: #e51919;
+    margin: 10px 0;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
