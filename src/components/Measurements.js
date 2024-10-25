@@ -23,7 +23,7 @@ const Measurements = () => {
 
             // Check if any measurement exceeds thresholds and set alerts
             const newAlerts = [];
-            if (data.temperature > temperatureThreshold) {
+            if (data.temperature < temperatureThreshold) {
                 newAlerts.push('Temperature exceeds the threshold!');
             }
             if (data.humidity > humidityThreshold) {
