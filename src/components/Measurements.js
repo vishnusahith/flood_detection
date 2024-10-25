@@ -15,7 +15,7 @@ const Measurements = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('/measurements');
+            const response = await fetch('http://localhost:5000/measurements');
             let data = await response.json();
             const randomIndex = Math.floor(Math.random() * data.length);
             data = data[randomIndex]
